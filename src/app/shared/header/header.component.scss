@@ -1,0 +1,25 @@
+@import '../constants';
+
+* {
+  background-color: $purple;
+}
+
+header {
+  height: 80px;
+}
+
+.title {
+  height: 80px;
+}
+
+img {
+  height: 60px;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.link {
+  padding-right: 20px;
+}
