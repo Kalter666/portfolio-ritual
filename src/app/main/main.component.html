@@ -1,0 +1,14 @@
+<section class="section">
+
+  <div class="title has-text-weight-normal">
+    <span class="forty-eight has-text-black">Со своей бедой вы не останетесь один на один!</span>
+    <span class="thirty has-text-black">Мы поможем вам во всех вопросах, связанных с похоронами близкого человека</span>
+  </div>
+
+  <div class="content-padding">
+    <div class="photo" *ngFor="let text of description; let i = index">
+      <app-image [image]="i" [descr]="text"></app-image>
+    </div>
+  </div>
+</section>
+
