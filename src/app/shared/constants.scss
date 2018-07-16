@@ -1,3 +1,9 @@
 $purple: rgb(204, 153, 255);
+$font-color: #330066;
 
-$titleFont: 'Monotype-cursiva';
+$padding: 240px;
+
+.content-padding {
+  padding-left: $padding;
+  padding-right: $padding;
+}

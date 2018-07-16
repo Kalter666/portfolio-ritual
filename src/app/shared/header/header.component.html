@@ -1,25 +1,19 @@
-<header>
-  <div class="row">
-    <div class="title col-xs-6">
-      <div class="row">
-        <div class="col-xs-3">
-          <img [lazyLoad]="'../../../assets/img/cross.png'" alt="cross">
-        </div>
-        <div class="col-xs-6">
-          <ul>
-            <li class="name">Волгоградская ритуальная компания</li>
-            <li class="name">&laquo;В ПОСЛЕДНИЙ ПУТЬ&raquo;</li>
-          </ul>
-        </div>
+<nav class="navbar content-padding" role="navigation" aria-label="main navigation">
+  <div class="navbar-brand">
+    <a href="#" class="navbar-item logo-font">
+      <div class="img-container">
+        <img [lazyLoad]="'../../../assets/img/cross.png'" alt="cross" width="40" height="60">
       </div>
-    </div>
-    <div class="col-xs-6">
-      <div class="row">
-        <div class="link">Служба</div>
-        <div class="link">Магазины</div>
-        <div class="link">Цены</div>
-        <div class="link">Контакты</div>
+      <div class="title">
+        <span>Волгоградская ритуальная компания</span>
+        <span>&laquo;В ПОСЛЕДНИЙ ПУТЬ&raquo;</span>
       </div>
-    </div>
+    </a>
   </div>
-</header>
+  <div class="navbar-end">
+    <a href="#" class="navbar-item">Служба</a>
+    <a href="#" class="navbar-item">Магазины</a>
+    <a href="#" class="navbar-item">Цены</a>
+    <a href="#" class="navbar-item">Контакты</a>
+  </div>
+</nav>
