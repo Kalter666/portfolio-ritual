@@ -1,0 +1,15 @@
+@import "../constants";
+
+* {
+  background-color: black;
+  color: white;
+}
+
+.display-column {
+  display: flex;
+  flex-direction: column;
+}
+
+footer {
+  height: 100px;
+}
