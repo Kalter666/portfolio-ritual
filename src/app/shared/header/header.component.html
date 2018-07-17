@@ -1,6 +1,6 @@
 <nav class="navbar content-padding" role="navigation" aria-label="main navigation">
   <div class="navbar-brand">
-    <a href="#" class="navbar-item logo-font">
+    <a routerLink="/" class="navbar-item logo-font">
       <div class="img-container">
         <img [lazyLoad]="'../../../assets/img/cross.png'" alt="cross" width="40" height="60">
       </div>
@@ -11,9 +11,9 @@
     </a>
   </div>
   <div class="navbar-end">
-    <a href="#" class="navbar-item">Служба</a>
-    <a href="#" class="navbar-item">Магазины</a>
-    <a href="#" class="navbar-item">Цены</a>
-    <a href="#" class="navbar-item">Контакты</a>
+    <a routerLink="/service" class="navbar-item">Служба</a>
+    <a routerLink="/shop" class="navbar-item">Магазины</a>
+    <a routerLink="/price" class="navbar-item">Цены</a>
+    <a routerLink="/contacts" class="navbar-item">Контакты</a>
   </div>
 </nav>

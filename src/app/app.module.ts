@@ -2,15 +2,34 @@ import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 
 import { AppComponent } from './app.component';
-import { SharedModule } from './shared/shared.module';
-import { MainModule } from './main/main.module';
 import { AboutComponent } from './about/about.component';
 import { LazyLoadImageModule } from 'ng-lazyload-image';
+import { AppRoutingModule } from './app-routing.module';
+import { MainComponent } from './main/main.component';
+import { MiniatureComponent } from './main/miniature/miniature.component';
+import { ImageComponent } from './main/image/image.component';
+import { HeaderComponent } from './shared/header/header.component';
+import { FooterComponent } from './shared/footer/footer.component';
+import { SimpleSmoothScrollModule } from 'ng2-simple-smooth-scroll/lib';
 
 @NgModule({
-  declarations: [AppComponent, AboutComponent],
-  imports: [BrowserModule, SharedModule, MainModule, LazyLoadImageModule],
+  declarations: [
+    AppComponent,
+    AboutComponent,
+    MiniatureComponent,
+    ImageComponent,
+    MainComponent,
+    HeaderComponent,
+    FooterComponent
+  ],
+  imports: [
+    BrowserModule,
+    LazyLoadImageModule,
+    AppRoutingModule,
+    SimpleSmoothScrollModule
+  ],
   providers: [],
   bootstrap: [AppComponent]
 })
-export class AppModule {}
+export class AppModule {
+}
