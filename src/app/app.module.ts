@@ -11,6 +11,7 @@ import { ImageComponent } from './main/image/image.component';
 import { HeaderComponent } from './shared/header/header.component';
 import { FooterComponent } from './shared/footer/footer.component';
 import { SimpleSmoothScrollModule } from 'ng2-simple-smooth-scroll/lib';
+import { TelImgModule } from './shared/tel-img/tel-img.module';
 
 @NgModule({
   declarations: [
@@ -26,7 +27,8 @@ import { SimpleSmoothScrollModule } from 'ng2-simple-smooth-scroll/lib';
     BrowserModule,
     LazyLoadImageModule,
     AppRoutingModule,
-    SimpleSmoothScrollModule
+    SimpleSmoothScrollModule,
+    TelImgModule
   ],
   providers: [],
   bootstrap: [AppComponent]

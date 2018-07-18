@@ -33,3 +33,8 @@ img {
 .navbar-end {
   font-size: 16pt;
 }
+
+.navbar-item:hover {
+  background-color: $purple;
+  color: white;
+}

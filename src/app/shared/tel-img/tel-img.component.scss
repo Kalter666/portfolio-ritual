@@ -1,0 +1,19 @@
+@import "../constants";
+
+.img-container {
+  background: url("../../../assets/img/about.jpg") center / cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 20vw;
+}
+
+.big {
+  display: flex;
+  flex-direction: column;
+}
+
+.grey-container {
+  background-color: rgba(0,0,0,0.68);
+  width: 60vw;
+}
