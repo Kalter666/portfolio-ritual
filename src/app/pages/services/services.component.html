@@ -1,0 +1,16 @@
+<section class="section content-padding content">
+  <h1 class="title has-text-centered">Ритуальная служба в Волгограде</h1>
+  <p>
+    <b>Мы поможем Вам сделать проводы близкого человека такими, чтобы его последний путь прошёл красиво и достойно.
+      Знайте, что со своей бедой вы не останетесь один на один.
+    </b>
+  </p>
+
+  <p class="has-text-danger has-text-weight-semibold">Консультационные и юридические вопросы:</p>
+  <div *ngFor="let service of serviceList">
+    <h2 class="thirty has-text-danger has-text-weight-semibold">{{ service.title }}</h2>
+    <ul>
+      <li *ngFor="let item of service.items">{{ item }}</li>
+    </ul>
+  </div>
+</section>
