@@ -6,7 +6,9 @@ import { AboutComponent } from './about/about.component';
 
 const appRoutes: Routes = [
   { path: '', component: MainComponent },
-  { path: 'about', component: AboutComponent }
+  { path: 'about', component: AboutComponent },
+  { path: 'page', loadChildren: './pages/pages.module#PagesModule' },
+  { path: '**', component: MainComponent }
 ];
 
 @NgModule({
