@@ -1,3 +1,5 @@
-<img [lazyLoad]="prefix + (+image + 1) + '.jpg'"
-width="420">
-<p class="has-text-centered">{{ descr }}</p>
+<a [routerLink]="info.link" class="has-text-black">
+  <img [lazyLoad]="prefix + (+image + 1) + '.jpg'"
+  width="420">
+  <p class="has-text-centered">{{ info.title }}</p>
+</a>

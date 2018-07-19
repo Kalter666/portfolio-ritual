@@ -9,7 +9,7 @@ import { prefix } from '../images';
 export class ImageComponent implements OnInit {
   prefix;
   @Input() image;
-  @Input() descr;
+  @Input() info;
 
   constructor() {
     this.prefix = prefix;

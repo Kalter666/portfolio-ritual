@@ -7,8 +7,8 @@
   </div>
 
   <div class="content-padding">
-    <div class="photo" *ngFor="let text of description; let i = index">
-      <app-image [image]="i" [descr]="text"></app-image>
+    <div class="photo" *ngFor="let el of description; let i = index">
+      <app-image [image]="i" [info]="el"></app-image>
     </div>
   </div>
 
