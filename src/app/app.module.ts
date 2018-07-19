@@ -24,7 +24,7 @@ import { TelImgModule } from './shared/tel-img/tel-img.module';
     FooterComponent
   ],
   imports: [
-    BrowserModule,
+    BrowserModule.withServerTransition({ appId: 'ritual' }),
     LazyLoadImageModule,
     AppRoutingModule,
     SimpleSmoothScrollModule,
@@ -33,5 +33,4 @@ import { TelImgModule } from './shared/tel-img/tel-img.module';
   providers: [],
   bootstrap: [AppComponent]
 })
-export class AppModule {
-}
+export class AppModule {}
