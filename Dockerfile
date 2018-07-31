@@ -6,11 +6,9 @@ WORKDIR /app/ritual
 
 COPY . /app/ritual
 
-ENV NODE_ENV=production
-
-RUN npm install -g @angular/cli
-
 RUN npm install
+
+ENV NODE_ENV=production
 
 RUN npm run build:ssr
 
