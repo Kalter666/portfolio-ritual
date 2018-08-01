@@ -4,16 +4,11 @@ FROM node
 
 WORKDIR /app/ritual
 
-COPY . /app/ritual
-
-RUN npm install
-
-ENV NODE_ENV=production
-
-RUN npm run build:ssr
+COPY /dist /app/ritual
 
 EXPOSE ${port}
 
+ENV NODE_ENV=production
 ENV NPM_CONFIG_LOGLEVEL info
 ENV PORT=${port}
 
