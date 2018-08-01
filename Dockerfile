@@ -4,7 +4,7 @@ FROM node
 
 WORKDIR /app/ritual
 
-COPY /dist /app/ritual
+COPY /dist /app/ritual/dist
 
 EXPOSE ${port}
 
