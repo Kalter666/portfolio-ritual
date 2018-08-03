@@ -1,11 +1,13 @@
 $purple: rgb(204, 153, 255);
 $font-color: #330066;
 
-$padding: 240px;
+$padding: 11vw;
 
 .content-padding {
   padding-left: $padding;
   padding-right: $padding;
+  margin: auto;
+  width: 100%;
 }
 
 .big {

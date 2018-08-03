@@ -1,5 +1,8 @@
 @import "../shared/constants";
-
 ul {
   list-style: none;
+}
+
+.column:first-child {
+  max-width: 20vw;
 }

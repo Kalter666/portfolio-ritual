@@ -13,13 +13,18 @@
 
 .photo {
   display: inline-block;
-  padding: 13px 40px;
+  padding: 0.5vw 1vw;
+  width: calc(77vw / 3);
 }
+
+// @media only screen and (max-width: 1300px) {
+//   .photo {
+//     width: calc(78vw / 3);
+//   }
+// }
 
 .content-padding {
   display: inline-block;
   text-align: center;
-  padding-left: 200px;
-  padding-right: 200px;
 }
 
